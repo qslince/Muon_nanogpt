@@ -1,0 +1,13 @@
+Running CPU control
+<unknown>:27: SyntaxWarning: invalid escape sequence '\s'
+Successful cases: 240; errors: 0
+FP64 spectral checks: 60; original BF16 checks: 60
+Results: /home/aleksei/results/ns-sanity-20261029T110055Z/cpu
+Submitting CUDA check to the shared GPU queue
+WAIT pid=18866 user=1004 log=/home/aleksei/logs/gpu/20261029T110101.987857Z-18866.log
+RUN waited=0.000s
+<unknown>:27: SyntaxWarning: invalid escape sequence '\s'
+Successful cases: 240; errors: 0
+FP64 spectral checks: 60; original BF16 checks: 60
+Results: /home/aleksei/results/ns-sanity-20261029T110055Z/cuda
+EXIT 0 log=/home/aleksei/logs/gpu/20261029T110101.987857Z-18866.log
