@@ -1,0 +1,40 @@
+WAIT pid=11550 user=1000 log=/home/ml01/logs/gpu/20261028T193143.233534Z-11550.log
+RUN waited=0.000s
+/home/ml01/results/probe-bs16-it30-20261028-223141/train_gpt2.py:27: SyntaxWarning: invalid escape sequence '\s'
+  """
+using device: cuda:0
+Training DataLoader: total number of tokens: 1000000000 across 10 files
+Validation DataLoader: total number of tokens: 100000000 across 1 files
+step:1/30 train_loss:16.0110 train_time:173249ms step_avg:nanms
+step:2/30 train_loss:9.6656 train_time:179542ms step_avg:nanms
+step:3/30 train_loss:8.7222 train_time:185866ms step_avg:nanms
+step:4/30 train_loss:8.2627 train_time:192195ms step_avg:nanms
+step:5/30 train_loss:7.7150 train_time:198516ms step_avg:nanms
+step:6/30 train_loss:7.5389 train_time:203711ms step_avg:nanms
+step:7/30 train_loss:7.4338 train_time:210035ms step_avg:nanms
+step:8/30 train_loss:7.1746 train_time:216377ms step_avg:nanms
+step:9/30 train_loss:7.5527 train_time:222734ms step_avg:nanms
+step:10/30 train_loss:7.2750 train_time:229066ms step_avg:nanms
+step:11/30 train_loss:7.0354 train_time:5071ms step_avg:nanms
+step:12/30 train_loss:7.0573 train_time:11391ms step_avg:nanms
+step:13/30 train_loss:6.8630 train_time:17783ms step_avg:5927.81ms
+step:14/30 train_loss:6.7159 train_time:24148ms step_avg:6036.92ms
+step:15/30 train_loss:7.0311 train_time:30489ms step_avg:6097.73ms
+step:16/30 train_loss:6.8751 train_time:35511ms step_avg:5918.54ms
+step:17/30 train_loss:6.9994 train_time:41844ms step_avg:5977.75ms
+step:18/30 train_loss:6.6166 train_time:48173ms step_avg:6021.63ms
+step:19/30 train_loss:6.5821 train_time:54487ms step_avg:6054.13ms
+step:20/30 train_loss:6.4625 train_time:60815ms step_avg:6081.47ms
+step:21/30 train_loss:6.5287 train_time:65968ms step_avg:5997.14ms
+step:22/30 train_loss:6.4082 train_time:72298ms step_avg:6024.87ms
+step:23/30 train_loss:6.3352 train_time:78633ms step_avg:6048.72ms
+step:24/30 train_loss:6.2832 train_time:84973ms step_avg:6069.47ms
+step:25/30 train_loss:6.4342 train_time:91310ms step_avg:6087.35ms
+step:26/30 train_loss:6.4442 train_time:96437ms step_avg:6027.32ms
+step:27/30 train_loss:6.2193 train_time:102768ms step_avg:6045.20ms
+step:28/30 train_loss:6.3194 train_time:109111ms step_avg:6061.74ms
+step:29/30 train_loss:6.2034 train_time:115508ms step_avg:6079.34ms
+step:30/30 train_loss:6.2022 train_time:121863ms step_avg:6093.16ms
+step:30/30 val_loss:6.2094 train_time:121878ms step_avg:6093.90ms
+peak memory consumption: 9528 MiB
+EXIT 0 log=/home/ml01/logs/gpu/20261028T193143.233534Z-11550.log
