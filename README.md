@@ -25,7 +25,6 @@
 - [Общий проект pre-registration](docs/pre-registration.md) — восемь пунктов задания; протокол и ставки на согласование команды.
 - [Лог исходного запуска: 500 шагов](results/asis-bs8-it500-20261028-212152/stdout.log) и [окружение](results/asis-bs8-it500-20261028-212152/env.txt) — val loss 3.8560, EXIT 0.
 - [Проба микробатча 16: 30 шагов](results/probe-bs16-it30-20261028-223141/stdout.log).
-- [Рабочий вклад C от 29 октября](docs/pre-registration-c.md) — использован при сборке общего документа.
 - [Проверка Newton–Schulz: инструкция](scripts/NS_SANITY.md).
 - [Результаты CPU/GPU-проверок от 29 октября](results/ns-sanity-20261029/README.md).
 
