@@ -68,8 +68,6 @@ gpu-run python scripts/check_newton_schulz.py --device cuda --dtypes fp64 fp32 b
 остаются отдельными задачами. По этой проверке нельзя заключить, что Muon быстрее
 AdamW или что все выходные сингулярные значения обязаны попасть в [0.7, 1.2].
 
-Результаты подготовлены и проанализированы с помощью Codex.
-
 ## Файлы
 
 - CPU: [таблица](cpu/summary.csv), [полные спектры и metadata](cpu/report.json).
